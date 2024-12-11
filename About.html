@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+        <link rel="stylesheet" href="css/style.css">
+        <title>About</title>
+</head>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Styled Navbar</title>
+    <style>
+        /* Navbar styles */
+        .navbar {
+            background-color: #f8f9fa; /* Light background */
+            padding: 10px 20px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+        }
+
+        .navbar-brand {
+            font-size: 20px;
+            font-weight: bold;
+            color: #000000; /* Dark gray */
+            text-transform: uppercase; /* Uppercase letters */
+        }
+
+        .d-flex {
+            display: flex;
+            gap: 15px; /* Space between links */
+        }
+
+        .nav-link {
+            display: inline-block;
+            padding: 8px 16px; /* Box padding */
+            text-decoration: none;
+            color: #333;
+            font-size: 16px;
+            border: 2px solid transparent; /* Invisible border for spacing */
+            border-radius: 20px; /* Rounded corners */
+            transition: all 0.3s ease; /* Smooth hover effects */
+        }
+
+        .nav-link:hover {
+            background-color: #007bff; /* Blue background on hover */
+            color: #fff; /* White text on hover */
+            border-color: #007bff; /* Match the border with hover color */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow effect */
+        }
+
+        .nav-link:active {
+            transform: scale(0.95); /* Click animation effect */
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container-fluid">
+            <a class="navbar-brand">Sachintha Tharuka Lakshan</a>
+            <div class="d-flex">
+                <a href="index.html"class="nav-link">Home</a>
+                <a href="about.html" class="nav-link">About</a>
+                <a href="work.html" class="nav-link">Work</a>
+                <a href="knowledge-sharing.html" class="nav-link">Knowledge Sharing</a>
+                <a href="https://www.linkedin.com" target="_blank" class="nav-link">LinkedIn</a>
+            </div>
+        </div>
+    </nav>
+
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>3D Navbar and Text Animation</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+        <style>
+            /* Body Style */
+            body {
+                font-family: 'Arial', sans-serif;
+                background: linear-gradient(to bottom right, #fbfbfb, #395aff); /* Gradient Background */
+                color: #ffffff;
+                margin: 0;
+                padding: 0;
+                min-height: 100vh;
+                display: flex;
+                flex-direction: column;
+            }
+    
+            /* Navbar Styling */
+            .navbar {
+                background-color: #6d72ff;
+                box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
+            }
+    
+            .navbar .nav-link {
+                color: #000000;
+                font-size: 18px;
+                transition: color 0.3s;
+            }
+    
+            .navbar .nav-link:hover {
+                color: #535dad; /* Hover Effect */
+            }
+    
+            /* Main Content Styling */
+            .content {
+                flex: 1;
+                text-align: center;
+                margin-top: 100px;
+            }
+    
+            h1 {
+                font-size: 50px;
+                font-weight: bold;
+                text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5), 
+                             -3px -3px 5px rgba(0, 0, 0, 0.2); /* 3D Effect */
+                animation: slideDown 2s ease-out, glow 1.5s infinite alternate;
+            }
+    
+            p {
+                font-size: 20px;
+                color: rgba(0, 0, 0, 0.9);
+                animation: fadeIn 2s ease-in-out;
+            }
+    
+            /* Keyframes for Animation */
+            @keyframes slideDown {
+                0% {
+                    transform: translateY(-100px);
+                    opacity: 0;
+                }
+                100% {
+                    transform: translateY(0);
+                    opacity: 1;
+                }
+            }
+    
+            @keyframes fadeIn {
+                0% {
+                    opacity: 0;
+                }
+                100% {
+                    opacity: 1;
+                }
+            }
+    
+            @keyframes glow {
+                from {
+                    text-shadow: 0 0 10px #0015ff, 0 0 20px #0015ff, 0 0 30px #0015ff;
+                }
+                to {
+                    text-shadow: 0 0 20px #0015ff 0 0 30px #0015ff, 0 0 40px #0015ff;
+                }
+            }
+        </style>
+    </head>
+    <body>
+    
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">SACHINTHA THARUKA LAKSHAN</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a href="index.html"class="nav-link">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="about.html" class="nav-link">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="work.html" class="nav-link">Work</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="knowledge-sharing.html" class="nav-link">Knowledge Sharing</a>
+                            <li class="nav-item">
+                                <a href="https://www.linkedin.com" target="_blank" class="nav-link">LinkedIn</a>
+                            </li>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    
+   
+    
+    <h1>MY PERSONAL DETAILS</h1>
+    <p>Welcome to the My About page!</p>
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>About Me</title>
+        <style>
+            /* පූර්ණ පිටුව සඳහා පසුබිම් පැහැය */
+            body {
+                font-family: Arial, sans-serif;
+                background-color: #f4f4f4; /* සැහැල්ලු අළු පැහැය */
+                margin: 0;
+                padding: 0;
+            }
+    
+            /* මැදට තැබීම සඳහා Container */
+            .container {
+                max-width: 600px;
+                margin: 50px auto;
+                background: white; /* සුදු පැහැය */
+                padding: 20px;
+                border-radius: 10px;
+                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* සැහැල්ලු සෙර */
+            }
+    
+            /* Title Headers (H1) සඳහා අලංකාර */
+            .container h1 {
+                font-size: 24px;
+                color: #333; /* ගැඹුරු අළු */
+                margin-bottom: 10px;
+                border-bottom: 2px solid #4CAF50; /* පාටින් වෙන්කළ යටින් රේඛාව */
+                display: inline-block;
+            }
+    
+            /* Paragraph text සඳහා සැලැස්ම */
+            .container p {
+                font-size: 16px;
+                color: #555; /* මධ්‍යම අළු */
+                margin: 5px 0 15px 0; /* ඉහළ, පහළ, වම් අතේ පැති අරය */
+            }
+        </style>
+    </head>
+    <body>
+    
+    <div class="container">
+        <h1>Name</h1>
+         <p>A.A.D.Sachintha tharuka Lakshan </p>
+         <h1>My Linkedin link</h1>
+         <p>www.linkedin.com/in/sachintha-tharuka-lakshan-728765314</p>
+         <h1>My GitHub Name</h1>
+         <p>SachinthaTharukaLakshan</p>
+         <h1>Lives in</h1>
+         <p>Gampaha </p>
+         <h1>Date of birth</h1>
+         <p>29.06.2004</p>
+         <h1>Gender</h1>
+         <p>Male</p>
+         <h1> Studied at</h1>
+         <p>Biyagama Central College </p>
+         <h1>Higher Education</h1>
+         <p> Institute of Computer Engineering Technology - (iCET) </p>
+         <h1> Education </h1>
+         <p>  General Certificate of Education O/L
+            Department of Education
+            G.C.E. O/ L 2020  </p>
+            <p>  Religion B </p>
+            <p> Language & Literature C</p>
+            <p>English S</p>
+            <p>Science S</p>
+            <p> Mathematics C</p>
+            <p> History C</p>
+            <p>  Art C</p>
+            <p> Bus & Accounts C</p>
+            <p> Inf & Com Tec S</p>
+             
+         <h1>Home Addrase</h1>
+         <p>740/1 Dhamsath Mawatha Heyiyanthuduwa </p>
+         <h1>Email</h1>
+         <p>sachinthat03@gmail.com</p>
+         <h1>CONTACT</h1>
+         <p>0760927041</p>
+         <h1> Religion </h1>
+         <p>  Buddhist </p>
+
+         
+       
+       
+        
+         
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    
+   
+</body>
+</html>

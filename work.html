@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+        <link rel="stylesheet" href="css/style.css">
+        <title>About</title>
+</head>
+<body>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Styled Navbar</title>
+        <style>
+            /* Navbar styles */
+            .navbar {
+                background-color: #f8f9fa; /* Light background */
+                padding: 10px 20px;
+                box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+            }
+    
+            .navbar-brand {
+                font-size: 20px;
+                font-weight: bold;
+                color: #343a40; /* Dark gray */
+                text-transform: uppercase; /* Uppercase letters */
+            }
+    
+            .d-flex {
+                display: flex;
+                gap: 15px; /* Space between links */
+            }
+    
+            .nav-link {
+                display: inline-block;
+                padding: 8px 16px; /* Box padding */
+                text-decoration: none;
+                color: #333;
+                font-size: 16px;
+                border: 2px solid transparent; /* Invisible border for spacing */
+                border-radius: 20px; /* Rounded corners */
+                transition: all 0.3s ease; /* Smooth hover effects */
+            }
+    
+            .nav-link:hover {
+                background-color: #007bff; /* Blue background on hover */
+                color: #fff; /* White text on hover */
+                border-color: #007bff; /* Match the border with hover color */
+                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow effect */
+            }
+    
+            .nav-link:active {
+                transform: scale(0.95); /* Click animation effect */
+            }
+        </style>
+    </head>
+    <nav class="navbar">
+        <div class="container-fluid">
+            <a class="navbar-brand">Sachintha Tharuka Lakshan</a>
+            <div class="d-flex">
+                <a href="index.html"class="nav-link">Home</a>
+                <a href="about.html" class="nav-link">About</a>
+                <a href="work.html" class="nav-link">Work</a>
+                <a href="knowledge-sharing.html" class="nav-link">Knowledge Sharing</a>
+                <a href="https://www.linkedin.com" target="_blank" class="nav-link">LinkedIn</a>
+            </div>
+        </div>
+    </nav>
+    
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>3D Navbar and Text Animation</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+        <style>
+            /* Body Style */
+            body {
+                font-family: 'Arial', sans-serif;
+                background: linear-gradient(to bottom right, #fbfbfb, #395aff); /* Gradient Background */
+                color: #ffffff;
+                margin: 0;
+                padding: 0;
+                min-height: 100vh;
+                display: flex;
+                flex-direction: column;
+            }
+    
+            /* Navbar Styling */
+            .navbar {
+                background-color: #6d72ff;
+                box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
+            }
+    
+            .navbar .nav-link {
+                color: #000000;
+                font-size: 18px;
+                transition: color 0.3s;
+            }
+    
+            .navbar .nav-link:hover {
+                color: #535dad; /* Hover Effect */
+            }
+    
+            /* Main Content Styling */
+            .content {
+                flex: 1;
+                text-align: center;
+                margin-top: 100px;
+            }
+    
+            h1 {
+                font-size: 50px;
+                font-weight: bold;
+                text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5), 
+                             -3px -3px 5px rgba(0, 0, 0, 0.2); /* 3D Effect */
+                animation: slideDown 2s ease-out, glow 1.5s infinite alternate;
+            }
+    
+            p {
+                font-size: 20px;
+                color: rgba(0, 0, 0, 0.9);
+                animation: fadeIn 2s ease-in-out;
+            }
+    
+            /* Keyframes for Animation */
+            @keyframes slideDown {
+                0% {
+                    transform: translateY(-100px);
+                    opacity: 0;
+                }
+                100% {
+                    transform: translateY(0);
+                    opacity: 1;
+                }
+            }
+    
+            @keyframes fadeIn {
+                0% {
+                    opacity: 0;
+                }
+                100% {
+                    opacity: 1;
+                }
+            }
+    
+            @keyframes glow {
+                from {
+                    text-shadow: 0 0 10px #0015ff, 0 0 20px #0015ff, 0 0 30px #0015ff;
+                }
+                to {
+                    text-shadow: 0 0 20px #0015ff 0 0 30px #0015ff, 0 0 40px #0015ff;
+                }
+            }
+        </style>
+    </head>
+    <body>
+    
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">SACHINTHA THARUKA LAKSHAN</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a href="index.html"class="nav-link">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="about.html" class="nav-link">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="work.html" class="nav-link">Work</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="knowledge-sharing.html" class="nav-link">Knowledge Sharing</a>
+                            <li class="nav-item">
+                                <a href="https://www.linkedin.com" target="_blank" class="nav-link">LinkedIn</a>
+                            </li>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    
+   
+    
+        <h1>My Work Page</h1>
+        <p>There are only a few images here, if you want to check more of this work, visit my github, my Github name SachinthaTharukaLakshan</p>
+        
+    <div class="container flult mt-5 bg-light">
+        <div class="row">
+            <div class="col">
+                <div class="card" style="width: 18rem;">
+                    <img src="image/my portfolio.PNG" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">MY PORTFOLIO </h5>
+                        <p class="card-title"> The website I created using html and css with a good UI and ux This is created in a way that is very attractive to the viewer by entering all my information
+                         </p>
+                  
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card" style="width: 18rem;">
+                    <img src="image/mos ui.PNG" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">MOS BURGERS</h5>
+                        <p class="card-text"> Here is a figma design made by me using ui and ux for a shop that sells burgers to be able to make their transactions properly and efficiently.
+                            
+                          </p>
+                    
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card" style="width: 18rem;">
+                    <img src="image/mos web.PNG" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">MOS BURGERS</h5>
+                        <p class="card-text">This is a web application that I have created for a burger shop that can use Html and Css to carry out its transactions correctly and efficiently.
+                           </p>
+              
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+                   
+    
+            <div class="container flult mt-5 bg-light">
+                <div class="row">
+                    <div class="col">
+                        <div class="card" style="width: 18rem;">
+                            <img src="image/weather ui and web.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">WEATHER APP</h5>
+                                <p class="card-text">This is a web page that I have made using javaFx to monitor the weather of any site, here I have shown more basic ui, ux to create.
+                                  </p>
+                   
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card" style="width: 18rem;">
+                            <img src="image/Smart Academy ui.PNG" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">SMART ACADEMY SYSTEM  </h5>
+                                <p class="card-text"> Another.smart academy system created from Figama</p>
+                       
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card" style="width: 18rem;">
+                            <img src="image/Medix ui.PNG" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">MEDIX</h5>
+                                <p class="card-text"> A project with a team, my task was to create a dashboard using figma.
+                                   </p>
+                          
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container flult mt-5 bg-light">
+                <div class="row">
+                    <div class="col">
+                        <div class="card" style="width: 18rem;">
+                            <img src="image/we care.PNG" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">WE CARE
+                                </h5>
+                                <p class="card-text">A group project, my task was to create a figma together with the group
+                                    </p>
+                               
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card" style="width: 18rem;">
+                            <img src="image/Defence oop.PNG" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">DEFENSE SYSTEM</h5>
+                                <p class="card-text">Here is a design I made in Java oop, in this design, I have prioritized the ui</p>
+                            
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card" style="width: 18rem;">
+                            
+                            <img src="image/clothify store login 01.PNG" class="card-img-top" alt="...">
+                            <img src="image/clothify store 02.PNG" class="card-img-top" alt="...">
+                            
+                            <div class="card-body">
+                                <h5 class="card-title">CLOTHIFY STORE</h5>
+                                <p class="card-text"> Another build using Java fx I. have not designed a figma here but I. Here the ui and ux are beautifully created using sceneBuilder
+                                    </p>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+    
+    
+    
+        </div>
+    </div>
+    
+
+    
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+crossorigin="anonymous"></script>
+</body>
+</html>
